@@ -1,0 +1,35 @@
+# POST http://localhost:8080/v1/client/accounts
+# Accept: application/json
+# Content-Type: application/json
+
+# {
+#     "clientId": "1234567-P",
+#     "clientName": "Francheska",
+#     "accountTypeId": 2,
+#     "coinId": 2,
+#     "amount": 6990,
+#     "branchId": 3
+# }
+
+# GET http://localhost:8080/v1/client/accounts/1234567-P
+# Accept: application/json
+
+# DELETE http://localhost:8080/v1/client/accounts/4
+# Accept: application/json
+
+PATCH http://localhost:8080/v1/client/accounts
+Accept: application/json
+Content-Type: application/json
+
+{
+    "accountId": 7,
+    "clientId": "1234567-P",
+    "clientName": "Francheska",
+    "accountTypeId": 2,
+    "accountTypeName": "Cuenta Corriente",
+    "coinId": 2,
+    "coinName": "US",
+    "amount": 2990,
+    "branchId": 3,
+    "branchName": "Santa Cruz"
+}

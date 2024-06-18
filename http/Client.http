@@ -1,0 +1,37 @@
+# GET http://localhost:8080/v1/client
+# Accept: application/json
+
+POST http://localhost:8080/v1/client
+Accept: application/json
+Content-Type: application/json
+
+{
+    "clientId": "1234567-P",
+    "clientName": "Francheska",
+    "clientFirstLastname": "Holkins",
+    "clientSecondLastname": "Brunk",
+    "docId": 1,
+    "docName": "Carnet de Identidad",
+    "birthDate": "1985-12-13",
+    "genderId": 2,
+    "genderName": "Femenino"
+}
+
+# DELETE http://localhost:8080/v1/client/1234567-P
+# Accept: application/json
+
+# PATCH http://localhost:8080/v1/client
+# Accept: application/json
+# Content-Type: application/json
+
+# {
+#     "clientId": "001776125-5",
+#     "clientName": "Alejandro",
+#     "clientFirstLastname": "Friezt",
+#     "clientSecondLastname": "Mawd",
+#     "docId": 1,
+#     "docName": "Carnet de Identidad",
+#     "birthDate": "2005-12-08",
+#     "genderId": 1,
+#     "genderName": "Masculino"
+# },
